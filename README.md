@@ -101,7 +101,9 @@ Technical Information:
             -----------
             The test will do a check that whether the forecast information is coming from api or not.
 
+
 Docker Commands To Build Image:
 ------------------------------
 docker build -t jagad .
+
 docker run -it --rm --name jagad_test jagad
